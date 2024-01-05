@@ -1,0 +1,47 @@
+body {
+    --color-black: rgba(0,0,0, 1);
+}
+
+table {
+    width: 50%;
+    justify-items: center;
+    border-collapse: collapse;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+
+.sort {
+    text-align: center;
+    height: 16px;
+    width: 145px;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--color-black);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.border {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+}
